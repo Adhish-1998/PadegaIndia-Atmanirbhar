@@ -1,0 +1,27 @@
+{
+  "name": "aatmanirbhar-apk",
+  "version": "1.0.0",
+  "description": "It is project about STEP-OUT App",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "npx nodemon src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Adhish-1998/PadegaIndia-Atmanirbhar.git"
+  },
+  "author": "Adhish Basak & Anirudh Sagar",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Adhish-1998/PadegaIndia-Atmanirbhar/issues"
+  },
+  "homepage": "https://github.com/Adhish-1998/PadegaIndia-Atmanirbhar#readme",
+  "dependencies": {
+    "express": "^4.18.2",
+    "mongoose": "^6.7.5",
+    "nodemon": "^2.0.20",
+    "otp-generator": "^4.0.0",
+    "twilio": "^3.83.4"
+  }
+}
